@@ -1,0 +1,42 @@
+c:\users\hom\documents\visual studio 2015\Projects\Texas Hold'em Poker\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+c:\users\hom\documents\visual studio 2015\Projects\Texas Hold'em Poker\BL\bin\Debug\BL.dll.config
+c:\users\hom\documents\visual studio 2015\Projects\Texas Hold'em Poker\BL\bin\Debug\BL.dll
+c:\users\hom\documents\visual studio 2015\Projects\Texas Hold'em Poker\BL\bin\Debug\BL.pdb
+c:\users\hom\documents\visual studio 2015\Projects\Texas Hold'em Poker\BL\obj\Debug\BL.dll
+c:\users\hom\documents\visual studio 2015\Projects\Texas Hold'em Poker\BL\obj\Debug\BL.pdb
+C:\Users\hom\Desktop\Texas Hold'em Poker\BL\bin\Debug\BL.dll.config
+C:\Users\hom\Desktop\Texas Hold'em Poker\BL\bin\Debug\BL.dll
+C:\Users\hom\Desktop\Texas Hold'em Poker\BL\bin\Debug\BL.pdb
+C:\Users\hom\Desktop\Texas Hold'em Poker\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\hom\Desktop\Texas Hold'em Poker\BL\obj\Debug\BL.dll
+C:\Users\hom\Desktop\Texas Hold'em Poker\BL\obj\Debug\BL.pdb
+C:\Users\ahmad\Source\Repos\Texas-Hold-em-desktop-client\BL\bin\Debug\BL.dll.config
+C:\Users\ahmad\Source\Repos\Texas-Hold-em-desktop-client\BL\bin\Debug\BL.dll
+C:\Users\ahmad\Source\Repos\Texas-Hold-em-desktop-client\BL\bin\Debug\BL.pdb
+C:\Users\ahmad\Source\Repos\Texas-Hold-em-desktop-client\BL\obj\Debug\BL.dll
+C:\Users\ahmad\Source\Repos\Texas-Hold-em-desktop-client\BL\obj\Debug\BL.pdb
+C:\Users\ahmad\Source\Repos\Texas-Hold-em-desktop-client\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\hom\Desktop\Texas-Hold-em-desktop-client-master\BL\bin\Debug\BL.dll.config
+C:\Users\hom\Desktop\Texas-Hold-em-desktop-client-master\BL\bin\Debug\BL.dll
+C:\Users\hom\Desktop\Texas-Hold-em-desktop-client-master\BL\bin\Debug\BL.pdb
+C:\Users\hom\Desktop\Texas-Hold-em-desktop-client-master\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\hom\Desktop\Texas-Hold-em-desktop-client-master\BL\obj\Debug\BL.dll
+C:\Users\hom\Desktop\Texas-Hold-em-desktop-client-master\BL\obj\Debug\BL.pdb
+C:\Users\hom\Desktop\poker\BL\bin\Debug\BL.dll.config
+C:\Users\hom\Desktop\poker\BL\bin\Debug\BL.dll
+C:\Users\hom\Desktop\poker\BL\bin\Debug\BL.pdb
+C:\Users\hom\Desktop\poker\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\hom\Desktop\poker\BL\obj\Debug\BL.dll
+C:\Users\hom\Desktop\poker\BL\obj\Debug\BL.pdb
+C:\Users\ahmad\Source\Repos\fixes\BL\bin\Debug\BL.dll.config
+C:\Users\ahmad\Source\Repos\fixes\BL\bin\Debug\BL.dll
+C:\Users\ahmad\Source\Repos\fixes\BL\bin\Debug\BL.pdb
+C:\Users\ahmad\Source\Repos\fixes\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\ahmad\Source\Repos\fixes\BL\obj\Debug\BL.dll
+C:\Users\ahmad\Source\Repos\fixes\BL\obj\Debug\BL.pdb
+C:\Users\hom\Desktop\texas poker\BL\bin\Debug\BL.dll.config
+C:\Users\hom\Desktop\texas poker\BL\bin\Debug\BL.dll
+C:\Users\hom\Desktop\texas poker\BL\bin\Debug\BL.pdb
+C:\Users\hom\Desktop\texas poker\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\hom\Desktop\texas poker\BL\obj\Debug\BL.dll
+C:\Users\hom\Desktop\texas poker\BL\obj\Debug\BL.pdb
