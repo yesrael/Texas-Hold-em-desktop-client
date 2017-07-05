@@ -1,0 +1,52 @@
+﻿<Window x:Class="GUI.signUp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="signUp" Height="500" Width="750">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="pictures/sign_up.jpg"/>
+        </Grid.Background>
+        <Label x:Name="id_label" Content="ID" HorizontalAlignment="Left" Margin="87,63,0,0" VerticalAlignment="Top" Height="24" Width="64" Background="{x:Null}" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+        <Label x:Name="pass_label" Content="password" HorizontalAlignment="Left" Margin="87,100,0,0" VerticalAlignment="Top" Height="30" Width="87" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+        <Label x:Name="name_label" Content="name" HorizontalAlignment="Left" Margin="87,141,0,0" VerticalAlignment="Top" Height="30" Width="87" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+        <Label x:Name="email_label" Content="email" HorizontalAlignment="Left" Margin="87,194,0,0" VerticalAlignment="Top" Height="30" Width="87" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+        <TextBox x:Name="id_textBox" HorizontalAlignment="Left" Height="23" Margin="192,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="pass_textBox" HorizontalAlignment="Left" Height="23" Margin="192,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="name_textBox" HorizontalAlignment="Left" Height="23" Margin="192,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="email_textBox" HorizontalAlignment="Left" Height="23" Margin="192,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="130" Margin="87,269,0,0" VerticalAlignment="Top" Width="308" Background="#FFC1C1B0"/>
+        <Canvas HorizontalAlignment="Left" Height="71" Margin="100,290,0,0" VerticalAlignment="Top" Width="57">
+            <Canvas.Background>
+                <ImageBrush ImageSource="pictures/avatar1.jpg"/>
+            </Canvas.Background>
+        </Canvas>
+        <Canvas x:Name="canvas1" HorizontalAlignment="Left" Height="71" Margin="247,290,0,0" VerticalAlignment="Top" Width="57">
+            <Canvas.Background>
+                <ImageBrush ImageSource="pictures/avatar3.jpg"/>
+            </Canvas.Background>
+        </Canvas>
+        <Canvas x:Name="canvas2" HorizontalAlignment="Left" Height="71" Margin="174,290,0,0" VerticalAlignment="Top" Width="57">
+            <Canvas.Background>
+                <ImageBrush ImageSource="pictures/avatar2.png"/>
+            </Canvas.Background>
+        </Canvas>
+        <Canvas HorizontalAlignment="Left" Height="71" Margin="323,290,0,0" VerticalAlignment="Top" Width="57">
+            <Canvas.Background>
+                <ImageBrush ImageSource="pictures/avatar4.jpg"/>
+            </Canvas.Background>
+        </Canvas>
+        <Label  x:Name="MainLabel"  Content="Please enter your personal details:" HorizontalAlignment="Left" Margin="58,15,0,0" VerticalAlignment="Top" Height="35" Width="286" FontWeight="Bold" FontSize="14" Foreground="#FFF1ECEC"/>
+        <Label  x:Name="MainLabel_Copy"  Content="please choose an avatar" HorizontalAlignment="Left" Margin="87,241,0,0" VerticalAlignment="Top" Height="35" Width="286" FontWeight="Bold" FontSize="14" Foreground="#FFCF4949"/>
+        <Button x:Name="confirm_button" Content="confirm" HorizontalAlignment="Left" Margin="441,412,0,0" VerticalAlignment="Top" Width="100" Click="confirm_button_Click" Height="30"/>
+        <RadioButton x:Name="avatar1" Content="avatar1" HorizontalAlignment="Left" Margin="100,374,0,0" VerticalAlignment="Top" Checked="radioButton_Checked"/>
+        <RadioButton x:Name="avatar2" Content="avatar2" HorizontalAlignment="Left" Margin="175,374,0,0" VerticalAlignment="Top" Checked="radioButton_Checked"/>
+        <RadioButton x:Name="avatar3" Content="avatar3" HorizontalAlignment="Left" Margin="248,374,0,0" VerticalAlignment="Top" Checked="radioButton_Checked"/>
+        <RadioButton x:Name="avatar4" Content="avatar4" HorizontalAlignment="Left" Margin="324,374,0,0" VerticalAlignment="Top" Checked="radioButton_Checked"/>
+        <Button x:Name="home_button" Content="Home" HorizontalAlignment="Left" Margin="523,20,0,0" VerticalAlignment="Top" Width="100" Click="home_button_Click" Height="30"/>
+
+    </Grid>
+</Window>

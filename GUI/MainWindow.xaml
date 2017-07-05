@@ -1,0 +1,20 @@
+﻿<Window x:Class="GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="750">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="pictures/background1.jpg"/>
+        </Grid.Background>
+        <Button x:Name="logInButton" Content="Log in" HorizontalAlignment="Left" Margin="87,182,0,0" VerticalAlignment="Top" Width="89" Height="27" Click="login_Click" OpacityMask="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" Background="#FF939592" FontWeight="Bold"/>
+        <Button x:Name="signUpButton" Content="sign up" HorizontalAlignment="Left" Margin="592,22,0,0" VerticalAlignment="Top" Width="89" Click="signup_Click" Height="29" Background="{x:Null}" FontWeight="Bold"/>
+        <Label x:Name="id_label" Content="ID" HorizontalAlignment="Left" Margin="87,94,0,0" VerticalAlignment="Top" Height="24" Width="64" Background="#FF110101" Foreground="#FFF7F7F9" FontWeight="Bold"/>
+        <Label x:Name="pass_label" Content="password" HorizontalAlignment="Left" Margin="87,131,0,0" VerticalAlignment="Top" Height="30" Width="87" Foreground="#FFF8F8FD" Background="#FF110101" FontWeight="Bold"/>
+        <TextBox x:Name="id_textBox" HorizontalAlignment="Left" Height="23" Margin="192,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="pass_textBox" HorizontalAlignment="Left" Height="23" Margin="192,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" BorderBrush="{x:Null}"/>
+    </Grid>
+</Window>

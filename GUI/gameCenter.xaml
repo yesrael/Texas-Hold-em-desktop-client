@@ -1,0 +1,74 @@
+﻿<Window x:Class="GUI.gameCenter"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="gameCenter" Height="500" Width="750">
+    <Window.Background>
+        <ImageBrush ImageSource="pictures/game_center.jpg"/>
+    </Window.Background>
+    <Grid RenderTransformOrigin="0.5,0.5">
+        <Grid.Background>
+            <ImageBrush ImageSource="pictures/as-holdem.jpg"/>
+        </Grid.Background>
+        <Button x:Name="logout_button" Content="Logout" HorizontalAlignment="Left" Margin="619,14,0,0" VerticalAlignment="Top" Width="100" Click="logout_button_Click" Height="30"/>
+        <Button x:Name="edit_profile_button" Content="Edit profile" HorizontalAlignment="Left" Margin="22,34,0,0" VerticalAlignment="Top" Width="100" Click="edit_profile_button_Click" Height="30" Background="#FFEE2020" Foreground="#FFE9F30C" FontSize="14"/>
+        <ComboBox x:Name="comboBox" Visibility="Hidden" HorizontalAlignment="Left" Margin="22,89,0,0" VerticalAlignment="Top" Width="223" Height="28" SelectionChanged="comboBox_SelectionChanged">
+            <ComboBoxItem Content="change password" HorizontalAlignment="Left" Width="221" Name="change_pass_selected" />
+            <ComboBoxItem Content="change user-name" HorizontalAlignment="Left" Width="221" Name="change_name_selected"/>
+            <ComboBoxItem Content="change email" HorizontalAlignment="Left" Width="221" Name="change_email_selected"/>
+            <ComboBoxItem Content="change avatar" HorizontalAlignment="Left" Width="221" Name="change_avatar_selected"/>
+        </ComboBox>
+        <TextBox x:Name="change_box" Visibility="Hidden" HorizontalAlignment="Left" Height="23" Margin="22,145,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" />
+        <Button x:Name="cancel_button" Visibility="Hidden"  Content="cancel" HorizontalAlignment="Left" Margin="22,217,0,0" VerticalAlignment="Top" Width="64" Click="cancel_button_Click" Height="30" Background="#FFEE2020" Foreground="#FFE9F30C" FontSize="14"/>
+        <Button x:Name="change_button" Visibility="Hidden"  Content="change" HorizontalAlignment="Left" Margin="117,217,0,0" VerticalAlignment="Top" Width="65" Click="change_button_Click" Height="30" Background="#FFEE2020" Foreground="#FFE9F30C" FontSize="14"/>
+        <Button x:Name="search_games_button" Content="search games" HorizontalAlignment="Left" Margin="22,274,0,0" VerticalAlignment="Top" Width="106" Click="search_games_button_Click" Height="30" Background="#FFEE2020" Foreground="#FFE9F30C" FontSize="14"/>
+        <DataGrid x:Name="games_table" Visibility="Hidden" HorizontalAlignment="Left" Margin="226,89,0,0" VerticalAlignment="Top" Height="139" Width="283"/>
+        <Button x:Name="join_game_button" Content="join\ spectate&#xD;&#xA; game" HorizontalAlignment="Left" Margin="21,314,0,0" VerticalAlignment="Top" Width="106" Click="join_game_button_Click" Height="49" Background="#FFF0F005" Foreground="#FFFB1D07" FontSize="14"/>
+        <Button x:Name="create_game_button" Content="create game" HorizontalAlignment="Left" Margin="21,376,0,0" VerticalAlignment="Top" Width="106" Click="create_game_button_Click" Height="30" Background="#FFEE2020" Foreground="#FFE9F30C" FontSize="14"/>
+        <Button x:Name="ok_button" Visibility="Hidden" Content="ok" HorizontalAlignment="Left" Margin="349,405,0,0" VerticalAlignment="Top" Width="60"  Height="30" Background="#FFEE2020" Foreground="#FFE9F30C" FontSize="14" Click="ok_button_Click"/>
+        <Button x:Name="cancel_game_button" Visibility="Hidden" Content="cancel" HorizontalAlignment="Left" Margin="469,405,0,0" VerticalAlignment="Top" Width="61"  Height="30" Background="#FFEE2020" Foreground="#FFE9F30C" FontSize="14" Click="cancel_game_button_Click"/>
+        <TextBox x:Name="game_box" Visibility="Hidden" HorizontalAlignment="Left" Height="23" Margin="359,354,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="game_label" Visibility="Hidden" Content="game labal" HorizontalAlignment="Left" Margin="210,354,0,0" VerticalAlignment="Top" Width="143" Foreground="#FFFF0606" FontWeight="Bold" Background="#FFF3F300"/>
+        <Border x:Name="avatar_border" Visibility="Hidden" BorderBrush="Black"  BorderThickness="1" HorizontalAlignment="Left" Height="130" Margin="21,76,0,0" VerticalAlignment="Top" Width="308" Background="#FFE6E6BF"/>
+        <Canvas HorizontalAlignment="Left" Visibility="Hidden" Name="canvas1" Height="71" Margin="34,97,0,0" VerticalAlignment="Top" Width="57">
+            <Canvas.Background>
+                <ImageBrush ImageSource="pictures/avatar1.jpg"/>
+            </Canvas.Background>
+        </Canvas>
+        <Canvas x:Name="canvas3"  Visibility="Hidden" HorizontalAlignment="Left" Height="71" Margin="181,97,0,0" VerticalAlignment="Top" Width="57">
+            <Canvas.Background>
+                <ImageBrush ImageSource="pictures/avatar3.jpg"/>
+            </Canvas.Background>
+        </Canvas>
+        <Canvas x:Name="canvas2"  Visibility="Hidden" HorizontalAlignment="Left" Height="71" Margin="108,97,0,0" VerticalAlignment="Top" Width="57">
+            <Canvas.Background>
+                <ImageBrush ImageSource="pictures/avatar2.png"/>
+            </Canvas.Background>
+        </Canvas>
+        <Canvas Name="canvas4"  Visibility="Hidden" HorizontalAlignment="Left" Height="71" Margin="257,97,0,0" VerticalAlignment="Top" Width="57">
+            <Canvas.Background>
+                <ImageBrush ImageSource="pictures/avatar4.jpg"/>
+            </Canvas.Background>
+        </Canvas>
+        <RadioButton x:Name="avatar1"  Visibility="Hidden" Content="avatar1" HorizontalAlignment="Left" Margin="34,181,0,0" VerticalAlignment="Top" />
+        <RadioButton x:Name="avatar2"  Visibility="Hidden" Content="avatar2" HorizontalAlignment="Left" Margin="109,181,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="avatar3"  Visibility="Hidden" Content="avatar3" HorizontalAlignment="Left" Margin="182,181,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="avatar4"  Visibility="Hidden" Content="avatar4" HorizontalAlignment="Left" Margin="258,181,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="serachGame_comboBox" Visibility="Hidden" HorizontalAlignment="Left" Margin="349,338,0,0" VerticalAlignment="Top" Width="180" Height="27" SelectionChanged="serachGame_comboBox_SelectionChanged">
+            <ComboBoxItem Content="search games by pot size" HorizontalAlignment="Left" Width="157" Name="search_by_pot_size" />
+            <ComboBoxItem Content="search games by player name" HorizontalAlignment="Left" Width="165" Name="search_by_player_name" />
+            <ComboBoxItem Content="search games by prefs" HorizontalAlignment="Left" Width="157" Name="search_by_prefs" />
+            <ComboBoxItem Content="show all joinable games" HorizontalAlignment="Left" Width="157" Name="joinable_list"/>
+            <ComboBoxItem Content="show all spectatable games" HorizontalAlignment="Left" Width="157" Name="spectatable_list"/>
+        </ComboBox>
+        <Button x:Name="spectate_button" Visibility="Hidden" Content="spectate" HorizontalAlignment="Left" Margin="409,405,0,0" VerticalAlignment="Top" Width="60"  Height="30" Background="#FFEEEE1A" Foreground="#FFEC210D" FontSize="14" Click="spectate_button_Click"/>
+        <Border x:Name="userAvatar" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="99" Margin="623,101,0,0" VerticalAlignment="Top" Width="96"/>
+        <Label x:Name="userName" Content="Label" HorizontalAlignment="Left" Height="38" Margin="619,70,-9,0" VerticalAlignment="Top" Width="132" FontSize="14" FontWeight="Bold"/>
+        <Button x:Name="replay_button" Visibility="Hidden" Content="Replay" HorizontalAlignment="Left" Margin="349,405,0,0" VerticalAlignment="Top" Width="77"  Height="30" Background="#FFEEEE1A" Foreground="#FFEC210D" FontSize="14" Click="replay_button_Click"/>
+        <Button x:Name="replay_game_button" Content="replay game" HorizontalAlignment="Left" Margin="21,421,0,0" VerticalAlignment="Top" Width="106" Click="replay_game_button_Click" Height="30" Background="#FFF0F005" Foreground="#FFFB1D07" FontSize="14"/>
+        <TextBox x:Name="change_password_box" Visibility="Hidden" HorizontalAlignment="Left" Height="23" Margin="21,183,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" />
+    </Grid>
+</Window>

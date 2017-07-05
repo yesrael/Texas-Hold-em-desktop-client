@@ -1,0 +1,46 @@
+﻿<Window x:Class="GUI.create_game"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="create_game" Height="500" Width="450">
+    <Window.Background>
+        <ImageBrush ImageSource="pictures/game_center_2.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Label x:Name="gameType_label" Content="game type" HorizontalAlignment="Left" Margin="52,46,0,0" VerticalAlignment="Top" Height="32" Width="99" Background="{x:Null}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="14"/>
+        <Label x:Name="limit_label" Content="limit" HorizontalAlignment="Left" Margin="52,83,0,0" VerticalAlignment="Top" Height="30" Width="87" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="14"/>
+        <Label x:Name="buyIn_label" Content="buy in" HorizontalAlignment="Left" Margin="52,124,0,0" VerticalAlignment="Top" Height="30" Width="87" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="14"/>
+        <Label x:Name="chipPolicy_label" Content="chip policy" HorizontalAlignment="Left" Margin="52,177,0,0" VerticalAlignment="Top" Height="30" Width="87" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="14"/>
+        <TextBox x:Name="limit_textBox" HorizontalAlignment="Left" Height="23" Margin="188,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
+        <TextBox x:Name="buyIn_textBox" HorizontalAlignment="Left" Height="23" Margin="188,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
+        <TextBox x:Name="chipPolicy_textBox" HorizontalAlignment="Left" Height="23" Margin="188,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
+        <Label  x:Name="MainLabel"  Content="Please enter the game details:" HorizontalAlignment="Left" Margin="56,10,0,0" VerticalAlignment="Top" Height="35" Width="286" FontWeight="Bold" FontSize="14" Foreground="#FF0F0101"/>
+        <Button x:Name="cancel_button" Content="cancel" HorizontalAlignment="Left" Margin="51,420,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="cancel_button_Click"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="188,46,0,0" VerticalAlignment="Top" Width="176" Height="26">
+            <ComboBoxItem Content="LIMIT" HorizontalAlignment="Left" Width="174"/>
+            <ComboBoxItem Content="NO_LIMIT" HorizontalAlignment="Left" Width="174"/>
+            <ComboBoxItem Content="POT_LIMIT" HorizontalAlignment="Left" Width="174"/>
+        </ComboBox>
+        <Label x:Name="minBet_label" Content="minimum bet" HorizontalAlignment="Left" Margin="52,215,0,0" VerticalAlignment="Top" Height="30" Width="99" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="14"/>
+        <TextBox x:Name="minBet_textBox" HorizontalAlignment="Left" Height="23" Margin="188,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
+        <Label x:Name="minPlayers_label" Content="minimum players" HorizontalAlignment="Left" Margin="52,258,0,0" VerticalAlignment="Top" Height="30" Width="120" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="14"/>
+        <TextBox x:Name="minPlayers_textBox" HorizontalAlignment="Left" Height="23" Margin="188,258,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
+        <Label x:Name="maxPlayers_label" Content="maximum players" HorizontalAlignment="Left" Margin="52,296,0,0" VerticalAlignment="Top" Height="30" Width="120" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="14"/>
+        <TextBox x:Name="maxPlayers_textBox" HorizontalAlignment="Left" Height="23" Margin="188,296,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
+        <Label x:Name="spectatable_label" Content="spectatable" HorizontalAlignment="Left" Margin="52,334,0,0" VerticalAlignment="Top" Height="30" Width="120" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="14"/>
+        <Label x:Name="leaguable_label" Content="leaguable" HorizontalAlignment="Left" Margin="52,372,0,0" VerticalAlignment="Top" Height="30" Width="120" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="14"/>
+        <ComboBox x:Name="spectatable_comboBox" HorizontalAlignment="Left" Margin="188,334,0,0" VerticalAlignment="Top" Width="176" Height="25">
+            <ComboBoxItem Content="TRUE" HorizontalAlignment="Left" Width="174"/>
+            <ComboBoxItem Content="FALSE" HorizontalAlignment="Left" Width="174"/>
+        </ComboBox>
+        <ComboBox x:Name="leaguable_comboBox" HorizontalAlignment="Left" Margin="188,377,0,0" VerticalAlignment="Top" Width="176" Height="25">
+            <ComboBoxItem Content="TRUE" HorizontalAlignment="Left" Width="174"/>
+            <ComboBoxItem Content="FALSE" HorizontalAlignment="Left" Width="174"/>
+        </ComboBox>
+        <Button x:Name="create_button" Content="CREATE" HorizontalAlignment="Left" Margin="176,420,0,0" VerticalAlignment="Top" Width="103" Height="30" Click="create_button_Click"/>
+
+    </Grid>
+</Window>
