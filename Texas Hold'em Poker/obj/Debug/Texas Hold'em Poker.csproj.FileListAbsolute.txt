@@ -1,0 +1,5 @@
+c:\users\hom\documents\visual studio 2015\Projects\Texas Hold'em Poker\Texas Hold'em Poker\bin\Debug\Texas Hold'em Poker.exe.config
+c:\users\hom\documents\visual studio 2015\Projects\Texas Hold'em Poker\Texas Hold'em Poker\obj\Debug\Texas Hold'em Poker.csprojResolveAssemblyReference.cache
+c:\users\hom\documents\visual studio 2015\Projects\Texas Hold'em Poker\Texas Hold'em Poker\obj\Debug\mainWindow.g.cs
+c:\users\hom\documents\visual studio 2015\Projects\Texas Hold'em Poker\Texas Hold'em Poker\obj\Debug\Texas Hold'em Poker_MarkupCompile.cache
+c:\users\hom\documents\visual studio 2015\Projects\Texas Hold'em Poker\Texas Hold'em Poker\obj\Debug\Texas Hold'em Poker_MarkupCompile.lref
