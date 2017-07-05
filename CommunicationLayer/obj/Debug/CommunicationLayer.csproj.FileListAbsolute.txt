@@ -1,0 +1,2 @@
+C:\Users\ahmad\Source\Repos\Texas-Hold-em-desktop-client\CommunicationLayer\obj\Debug\CommunicationLayer.csprojResolveAssemblyReference.cache
+C:\Users\ahmad\Source\Repos\Texas-Hold-em-desktop-client\CommunicationLayer\bin\Debug\CommunicationLayer.exe.config
